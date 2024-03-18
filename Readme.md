@@ -30,5 +30,9 @@ Card status of the card associated with that given card_id or user_phone
 #### 📌Basic Working
 
 ````
-As sson as we start the server all those csv files will be parsed and stored as models in Mongodb.```
+As soon as we start the server all those csv files will be parsed and stored as models in Mongodb.```
 ````
+
+## To create a docker image:
+
+` Create a repository on hub.docker.com as ankan1811/csv_parser.Then, docker build -t ankan1811/csv_parser .`
