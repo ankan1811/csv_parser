@@ -33,10 +33,11 @@ Card status of the card associated with that given card_id or user_phone
 As soon as we start the server all those csv files will be parsed and stored as models in Mongodb.```
 ````
 
-### To create a docker image:
+### To publish on DockerHub:
 
 ```
- Create a repository on hub.docker.com as ankan1811/csv_parser.
- 1.docker build -t ankan1811/csv_parser .
- 2.docker run -it ankan1811/csv_parser
+ Create a repository on hub.docker.com as your_dockerhub_username/your_repository_name
+ 1. docker build -t your_dockerhub_username/your_repository_name .
+ 2. docker run -it your_dockerhub_username/your_repository_name
+ 3. docker push your_dockerhub_username/your_repository_name
 ```
